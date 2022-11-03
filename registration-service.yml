@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver    
+    password: ${DDB_PASSWORD:root}
+    url: ${JDBC_URL:jdbc:mariadb://localhost:3306/tourbookingdb}
+    username: ${DB_USER:root}
